@@ -1,6 +1,29 @@
 const webpack = require("webpack");
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 module.exports = {
+  //生成环境部署路径，默认为'/'
+  publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
+  //当运行 build 时生成的生产环境构建文件的目录
+  outputDir: "dist",
+  //放置生成的静态资源 (js、css、img、fonts) 的 (相对于 outputDir 的) 目录
+  assetsDir: "",
+  //指定生成的 index.html 的输出路径 (相对于 outputDir)
+  indexPath: "index.html",
+  //默认情况下，生成的静态资源在它们的文件名中包含了 hash 以便更好的控制缓存,可设置false关闭
+  filenameHashing: true,
   configureWebpack: {
+    optimization: {
+      minimizer: [
+        new UglifyJsPlugin({
+          uglifyOptions: {
+            warnings: false,
+            compress: {
+              pure_funcs: ["console.log", "console.debug"] //移除console
+            }
+          }
+        })
+      ]
+    },
     plugins: [
       new webpack.ProvidePlugin({
         $: "jquery",

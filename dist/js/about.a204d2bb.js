@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["about"],{"8d34":function(e,n,t){"use strict";t.r(n);var c={},r=t("4e82"),u=Object(r.a)(c,function(){var e=this,n=e.$createElement;return(e._self._c||n)("div",[e._v(" BigScreenFee ")])},[],!1,null,"065987cf",null);n.default=u.exports}}]);
