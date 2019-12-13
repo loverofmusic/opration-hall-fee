@@ -1,0 +1,38 @@
+[
+  {
+    "hallName": "国网南京【城北】供电营业厅",
+    "hallId": "1",
+    "businessType": [
+      { "count": 483, "type": "1" },
+      { "count": 74, "type": "13" },
+      { "count": 296, "type": "3" }
+    ]
+  },
+  {
+    "hallName": "国网南京【城南】供电营业厅",
+    "hallId": "2",
+    "businessType": [
+      { "count": 56, "type": "13" },
+      { "count": 619, "type": "1" },
+      { "count": 395, "type": "3" }
+    ]
+  },
+  {
+    "hallName": "国网南京【栖霞】供电营业厅",
+    "hallId": "3",
+    "businessType": [
+      { "count": 406, "type": "3" },
+      { "count": 426, "type": "1" },
+      { "count": 111, "type": "13" }
+    ]
+  },
+  {
+    "hallName": "国网南京【雨花】供电营业厅",
+    "hallId": "4",
+    "businessType": [
+      { "count": 336, "type": "3" },
+      { "count": 109, "type": "13" },
+      { "count": 389, "type": "1" }
+    ]
+  }
+]

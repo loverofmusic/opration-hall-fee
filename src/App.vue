@@ -1,0 +1,21 @@
+<template>
+  <div id="app">
+    <!-- <div id="nav">
+      <router-link to="/opration">BigScreenOpration</router-link> |
+      <router-link to="/fee">BigScreenFee</router-link> |
+      <router-link to="/hall">BigScreenHall</router-link> 
+    </div> -->
+    <router-view />
+  </div>
+</template>
+
+<style lang="less">
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // text-align: center;
+  // color: #2c3e50;
+  height: 100%;
+}
+</style>

@@ -1,0 +1,8 @@
+{
+  "content": [
+    { "hallId": "1", "todayCount": 129, "yestodayCount": 144, "sum": -15 },
+    { "hallId": "2", "todayCount": 115, "yestodayCount": 113, "sum": 2 },
+    { "hallId": "3", "todayCount": 131, "yestodayCount": 123, "sum": 8 },
+    { "hallId": "4", "todayCount": 104, "yestodayCount": 142, "sum": -38 }
+  ]
+}

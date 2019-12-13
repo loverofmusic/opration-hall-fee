@@ -1,0 +1,345 @@
+main .l,
+main .m,
+main .r {
+  flex: 0 0 33.33%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+main .l,
+main .r {
+  margin-top: 0.7rem;
+}
+
+main .l > div,
+main .r > div {
+  display: flex;
+  flex: 0 0 50%;
+  padding: 0.6875rem 0.75rem;
+}
+
+main .l .l-t,
+main .r .r-t {
+  flex: 0 0 20%;
+}
+
+main .l .l-m,
+main .r .r-m,
+main .l .l-b,
+main .r .r-b {
+  flex: 0 0 40%;
+}
+
+main .chart-wrap {
+  /* border: 0.0625rem solid rgba(76, 180, 231, 0.33); */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: url(../images/2@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+
+main .l-t .chart-wrap,
+main .r-t .chart-wrap {
+  background: url(../images/l_t_frame@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+
+main .l-m .chart-wrap,
+main .l-b .chart-wrap,
+main .r-m .chart-wrap,
+main .r-b .chart-wrap {
+  background: url(../images/l_m_frame@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+
+main .m {
+  padding: 2.5rem 1rem 0.75rem;
+}
+
+.baidu-map {
+  background: url(../images/map@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+  flex: 1;
+  margin: 1rem;
+}
+
+.map-wrap {
+  background: url(../images/1@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+  flex: 1;
+  display: flex;
+}
+
+.hot-map-tit {
+  margin-top: -1rem;
+  color: #a2c3ff;
+  margin-left: -4.5rem;
+  left: 50%;
+  position: absolute;
+}
+
+main .chart-wrap .chart {
+  flex: 1;
+  height: 0;
+}
+
+main .chart-wrap h3 {
+  color: #a2c3ff;
+  font-size: 1.125rem;
+  padding: 1.2rem 1.2rem 0;
+  margin-bottom: 0;
+}
+
+.chart-inner {
+  display: flex;
+  flex: 1;
+}
+
+.chart-inner .inner-left,
+.chart-inner .inner-right {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chart-inner .left-top,
+.chart-inner .left-bottom,
+.chart-inner .right-top,
+.chart-inner .right-bottom {
+  display: flex;
+  flex: 0 0 50%;
+  padding: 0.6875rem 1.2rem;
+}
+
+.chart-inner .echart-all {
+  padding: 0;
+}
+
+.alarm-con {
+  width: 100%;
+  color: #fff;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-wrap {
+  display: flex;
+}
+.user-wrap .alarm-con {
+  flex: 0 0 50%;
+}
+
+.alarm-con .alarm-ico {
+  width: 5.125rem;
+  height: 2.375rem;
+  background: url(../images/sos@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+
+.user-wrap .alarm-con .user-ico {
+  width: 3.125rem;
+  height: 3.125rem;
+  background: url(../images/user@2x.png) center -0.3rem no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.user-wrap .alarm-con .local-ico {
+  width: 3.125rem;
+  height: 3.125rem;
+  background: url(../images/local@2x.png) center -0.3rem no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.user-ico .user-ico-t,
+.local-ico .local-ico-t {
+  color: #a2c3ff;
+  font-size: 1rem;
+  position: absolute;
+  top: 2.7rem;
+  left: 0.6rem;
+}
+
+.alarm-s {
+  font-size: 1.25rem;
+  position: absolute;
+  top: 0.8rem;
+  left: 1.7rem;
+}
+.alarm-n {
+  font-size: 3rem;
+}
+.alarm-txt {
+  font-size: 1rem;
+  margin-left: 0.4rem;
+}
+.alarm-sym {
+  width: 4rem;
+  position: relative;
+  height: 2rem;
+}
+.users-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/WZ_01@2x.png) center center no-repeat;
+  background-size: 17.5rem 17.5rem;
+}
+.users-con {
+  width: 27.5rem;
+  height: 17.5rem;
+  position: relative;
+}
+.users-con li li {
+  color: #fff;
+  position: absolute;
+  cursor: pointer;
+  width: 10.25rem;
+  height: 3rem;
+}
+.users-con li.u-0 {
+  top: 1.9rem;
+  left: 9.9rem;
+  color: #893cef;
+  font-size: 1.625rem;
+}
+.users-con li.u-1 {
+  top: 5.9rem;
+  left: 9rem;
+  color: #fff;
+  font-size: 2rem;
+}
+.users-con li.u-2 {
+  top: 8.3rem;
+  left: 19.8rem;
+  color: #14e6ca;
+  font-size: 1.5rem;
+}
+.users-con li.u-3 {
+  top: 12.8rem;
+  left: 19.61rem;
+  color: #135997;
+  font-size: 1.5rem;
+}
+.users-con li.u-4 {
+  top: 14.3rem;
+  left: 11.4rem;
+  color: #22b567;
+  font-size: 0.875rem;
+}
+.users-con li.u-5 {
+  top: 9.6rem;
+  left: 6.5rem;
+  color: #fff;
+  font-size: 1.25rem;
+}
+.users-con li.u-6 {
+  top: 4rem;
+  left: 5rem;
+  color: #893cef;
+}
+.users-con li.u-7 {
+  top: 10.4rem;
+  left: 14rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.users-con li.u-8 {
+  top: 5rem;
+  left: 17rem;
+  color: #fff;
+  font-size: 1.625rem;
+}
+.users-con li.u-9 {
+  top: 12rem;
+  left: 3rem;
+  color: #135997;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+/* main_image */
+.main_visual {
+  height: 19rem;
+  overflow: hidden;
+  position: relative;
+}
+.main_image {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.main_image > ul {
+  width: 9999px;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main_image > li {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.main_image > li span {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.main_image > li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+div.flicking_con {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  z-index: 999;
+  width: 7.6rem;
+  height: 0.5rem;
+  margin: 0 0 0 -3.8rem;
+}
+div.flicking_con a {
+  float: left;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 0 0.5rem 0;
+  padding: 0;
+  background: #fff;
+  display: block;
+  text-indent: -1000px;
+  border-radius: 0.25rem;
+}
+div.flicking_con a.on {
+  background: #00f8ef;
+}
+#btn_prev,
+#btn_next {
+  z-index: 11111;
+  position: absolute;
+  display: block;
+  width: 73px !important;
+  height: 74px !important;
+  top: 50%;
+  margin-top: -37px;
+  display: none;
+}
+#btn_prev {
+  background: url(../images/hover_left.png) no-repeat left top;
+  left: 100px;
+}
+#btn_next {
+  background: url(../images/hover_right.png) no-repeat right top;
+  right: 100px;
+}

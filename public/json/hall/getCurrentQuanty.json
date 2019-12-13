@@ -1,0 +1,6 @@
+[
+  { "hallId": "1", "todayCount": 970, "yestodayCount": 892, "sum": 78 },
+  { "hallId": "2", "todayCount": 929, "yestodayCount": 822, "sum": 107 },
+  { "hallId": "3", "todayCount": 974, "yestodayCount": 881, "sum": 93 },
+  { "hallId": "4", "todayCount": 919, "yestodayCount": 989, "sum": -70 }
+]

@@ -1,0 +1,287 @@
+main .l,
+main .m,
+main .r {
+  flex: 0 0 33.33%;
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden; */
+}
+
+main .l,
+main .r {
+  margin-top: 0.7rem;
+  position: relative;
+}
+
+main .l > div,
+main .r > div {
+  display: flex;
+  /* flex: 0 0 50%; */
+  padding: 0.6875rem 0.75rem;
+}
+
+main .r .r-t,
+main .r .r-m,
+main .r .r-b {
+  flex: 0 0 33.33333%;
+}
+
+main .l .l-1,
+main .l .l-2,
+main .l .l-3 {
+  flex: 0 0 20%;
+}
+
+main .l .l-4 {
+  flex: 0 0 40%;
+}
+
+main .chart-wrap {
+  /* border: 0.0625rem solid rgba(76, 180, 231, 0.33); */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: url(../images/ZN_04@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+
+main .l-1 .chart-wrap,
+main .l-2 .chart-wrap,
+main .l-3 .chart-wrap {
+  background: url(../images/ZN_07@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+
+main .l-4 .chart-wrap {
+  background: url(../images/l_m_frame@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+
+main .m {
+  padding: 2.5rem 1rem 0.75rem;
+}
+
+.r-tt {
+  position: absolute;
+  width: 100%;
+  height: 4.25rem;
+  padding: 0 0.75rem;
+  background: url(../images/ZN_02@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+  top: -5rem;
+  z-index: 2;
+  display: flex;
+}
+.l .r-tt {
+  background: url(../images/ZN_01@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+.l .r-tt-con {
+  flex: 1;
+}
+
+.r-tt-con {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 50%;
+  color: #a2c3ff;
+  display: flex;
+  font-size: 0.875rem;
+  position: relative;
+}
+
+.r-tt-num {
+  font-size: 2.25rem;
+  color: #fff;
+  margin: 0 1rem 0 1.5rem;
+}
+.line-v {
+  width: 1px;
+  height: 1.875rem;
+  background: #0a497d;
+  margin-right: 1.4rem;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.hall-data-con {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #a2c3ff;
+  display: flex;
+  font-size: 0.875rem;
+}
+.hall-data-1 {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 50%;
+  align-items: center;
+}
+
+.hall-data-2,
+.hall-data-3 {
+  flex: 0 0 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-left: 1px solid #0a497d;
+}
+
+.hall-data-num {
+  font-size: 2rem;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.green-up {
+  color: #18f6ee;
+}
+
+.red-down {
+  color: #ff54aa;
+}
+.hall-data-gd,
+.hall-data-rd {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.hall-data-txt {
+  color: #fff;
+}
+.baidu-map {
+  background: url(../images/map@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+  flex: 1;
+  margin: 1rem;
+}
+
+.map-wrap {
+  background: url(../images/1@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+  flex: 1;
+  display: flex;
+}
+
+.hot-map-tit {
+  margin-top: -1rem;
+  color: #a2c3ff;
+  margin-left: -4.5rem;
+  left: 50%;
+  position: absolute;
+}
+
+main .chart-wrap .chart {
+  flex: 1;
+  height: 0;
+}
+
+main .chart-wrap h3 {
+  color: #a2c3ff;
+  font-size: 1.125rem;
+  padding: 1.2rem 1.2rem 0;
+  margin-bottom: 0;
+}
+
+.chart-inner {
+  display: flex;
+  flex: 1;
+}
+
+.chart-inner .inner-left,
+.chart-inner .inner-right {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chart-inner .left-top,
+.chart-inner .left-bottom,
+.chart-inner .right-top,
+.chart-inner .right-bottom {
+  display: flex;
+  flex: 0 0 50%;
+  padding: 0.6875rem 1.2rem;
+}
+
+.chart-inner .echart-all {
+  padding: 0;
+}
+
+.alarm-con {
+  width: 100%;
+  color: #fff;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-wrap {
+  display: flex;
+}
+
+.user-wrap .alarm-con {
+  flex: 0 0 50%;
+}
+
+.alarm-con .alarm-ico {
+  width: 5.125rem;
+  height: 2.375rem;
+  background: url(../images/sos@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+
+.user-wrap .alarm-con .user-ico {
+  width: 3.125rem;
+  height: 3.125rem;
+  background: url(../images/user@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.user-wrap .alarm-con .local-ico {
+  width: 3.125rem;
+  height: 3.125rem;
+  background: url(../images/local@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.user-ico .user-ico-t,
+.local-ico .local-ico-t {
+  color: #a2c3ff;
+  font-size: 1rem;
+  position: absolute;
+  top: 2.7rem;
+  left: 0.6rem;
+}
+
+.alarm-s {
+  font-size: 1.25rem;
+  position: absolute;
+  top: 0.8rem;
+  left: 1.7rem;
+}
+
+.alarm-n {
+  font-size: 3rem;
+}
+
+.alarm-txt {
+  font-size: 1rem;
+  margin-left: 0.4rem;
+}
+
+.alarm-sym {
+  width: 4rem;
+  position: relative;
+  height: 2rem;
+}
+
+/*# sourceMappingURL=index.css.map */

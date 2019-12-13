@@ -1,0 +1,101 @@
+main .l,
+main .m,
+main .r {
+  flex: 0 0 33.33%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+main .l,
+main .r {
+  margin-top: 0.7rem;
+}
+
+main .l > div,
+main .r > div {
+  display: flex;
+  flex: 0 0 50%;
+  padding: 0.6875rem 0.75rem;
+}
+
+main .l .l-t,
+main .r .r-t,
+main .l .l-b,
+main .r .r-b {
+}
+
+main .chart-wrap {
+  /* border: 0.0625rem solid rgba(76, 180, 231, 0.33); */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: url(../images/2@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+
+main .m {
+  padding: 2.5rem 1rem 0.75rem;
+}
+
+.baidu-map {
+  /*background: url(../images/map@2x.png) center top no-repeat;*/
+  background-size: 100% 100%;
+  flex: 1;
+  margin: 1rem;
+}
+
+.map-wrap {
+  background: url(../images/1@2x.png) center top no-repeat;
+  background-size: 100% 100%;
+  flex: 1;
+  display: flex;
+}
+
+.hot-map-tit {
+  margin-top: -1rem;
+  color: #a2c3ff;
+  margin-left: -4.5rem;
+  left: 50%;
+  position: absolute;
+}
+
+main .chart-wrap .chart {
+  flex: 1;
+  height: 0;
+}
+
+main .chart-wrap h3 {
+  color: #a2c3ff;
+  font-size: 0.94rem;
+  padding: 1.2rem 1.2rem 0.8rem;
+  margin-bottom: 0;
+}
+
+.chart-inner {
+  display: flex;
+  flex: 1;
+}
+
+.chart-inner .inner-left,
+.chart-inner .inner-right {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chart-inner .left-top,
+.chart-inner .left-bottom,
+.chart-inner .right-top,
+.chart-inner .right-bottom {
+  display: flex;
+  flex: 0 0 50%;
+  padding: 0.6875rem 1.2rem;
+}
+
+.chart-inner .echart-all {
+  padding: 0;
+}
+
+/*# sourceMappingURL=index.css.map */
