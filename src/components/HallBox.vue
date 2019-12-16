@@ -69,7 +69,7 @@ export default {
     }
   },
   updated() {
-    console.log(this.hallBoxDatas);
+    // console.log(this.hallBoxDatas);
 
     let domIdPie = "ec_" + this.hallBoxDatas.hallId + "_pie";
     let businessList = this.hallBoxDatas.businessList;
