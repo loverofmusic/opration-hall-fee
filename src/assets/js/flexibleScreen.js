@@ -11,7 +11,7 @@ let isWider = pageW / pageH > Cfg.designW / Cfg.designH;
 let [scaleW, scaleH] = [pageW / Cfg.designW, pageH / Cfg.designH];
 
 // set 1rem = viewWidth / 10
-let rem = docEl.clientWidth / 100;
+let rem = docEl.clientWidth / 10;
 docEl.style.fontSize = rem + "px";
 
 function getRatio(domEle) {

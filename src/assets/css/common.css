@@ -72,34 +72,6 @@
 
 }
 
-
-
-
-h3 {
-  margin-bottom: 1rem;
-  padding: .5rem 1rem;
-  font-size: 1.5rem;
-  letter-spacing: .0625rem;
-  color: var(--c_mainWhite);
-  background: linear-gradient(to right, var(--c_mainBlue), transparent);
-  z-index: 1;
-}
-
-h3.en {
-  margin-top: .3rem;
-  color: #999;
-  font-size: .75rem;
-}
-
-h4 {
-  font-size: 1.25rem;
-  letter-spacing: .125rem;
-}
-
-h5 {
-  letter-spacing: .125rem;
-}
-
 #container {
   height: 100%;
 }
@@ -111,7 +83,7 @@ h5 {
   background-size: contain;
   position: fixed;
   width: 100%;
-  height: 5rem;
+  height: 0.4167rem;
 }
 
 
@@ -120,7 +92,7 @@ h5 {
   color: rgba(233, 245, 255, 1);
   text-align: center;
   /* margin: 0 4.5rem .5rem; */
-  font-size: 0.16rem;
+  font-size: 0.1458rem;
   line-height: 2.5;
   font-weight: normal;
 
@@ -131,7 +103,7 @@ h5 {
 #container main {
   /* flex: 1; */
   display: flex;
-  padding: 5rem 0.75rem 0.6875rem;
+  padding: 0.5208rem 0.125rem 0.1042rem;
   margin: 0 auto;
   height: 100%;
 }
@@ -147,6 +119,7 @@ h5 {
   flex: 0 0 50%;
   /* justify-content: center; */
   align-items: center;
+  margin-left: 0.1042rem;
 }
 
 .business-con {
@@ -160,13 +133,13 @@ h5 {
 
 .data-con .data-tit {
   color: #A2C3FF;
-  font-size: 0.875rem;
+  font-size: 0.0729rem;
   flex: 0 0 30%;
 }
 
 .data-con .data-num {
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.0833rem;
   flex: 0 0 46%;
 }
 
@@ -175,20 +148,20 @@ h5 {
 }
 
 .data-con .data-num .nbw {
-  font-size: 2rem;
+  font-size: 0.1667rem;
   float: left;
-  margin-top: -0.5rem;
+  margin-top: 0;
 }
 
 .data-con .data-num .subtit {
   float: left;
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
+  margin-top: 0.0417rem;
+  margin-left: 0.0521rem;
 }
 
 .data-con .data-compare .top {
   /* color: #FF54AA; */
-  font-size: 0.875rem;
+  font-size: 0.0729rem;
   text-align: center;
 }
 
@@ -198,8 +171,9 @@ h5 {
 
 .data-con .data-compare .bott {
   color: #A2C3FF;
-  font-size: 0.625rem;
+  font-size: 0.0521rem;
   text-align: center;
+  margin-top: 0.026rem;
 }
 
 .green-up{
@@ -208,6 +182,10 @@ h5 {
 
 .red-down{
   color: #FF54AA;
+}
+
+.color-num{
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=common.css.map */

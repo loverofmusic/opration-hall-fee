@@ -19,7 +19,7 @@
                 :class="[hallBoxDatas.compareRateFlow > 0 ? 'green-up' : 'red-down']"
               >
                 <span>{{ hallBoxDatas.compareRateFlow > 0 ? "↑" : "↓" }}</span>
-                <span>{{ hallBoxDatas.compareRateFlow | formatAbs | toFixed(1) }}%</span>
+                <span class="color-num">{{ hallBoxDatas.compareRateFlow | formatAbs | toFixed(1) }}%</span>
               </div>
               <div class="bott">环比</div>
             </div>
@@ -36,7 +36,7 @@
                 :class="[hallBoxDatas.compareRateBusi > 0 ? 'green-up' : 'red-down']"
               >
                 <span>{{ hallBoxDatas.compareRateBusi > 0 ? "↑" : "↓" }}</span>
-                <span>{{ hallBoxDatas.compareRateBusi | formatAbs | toFixed(1) }}%</span>
+                <span class="color-num">{{ hallBoxDatas.compareRateBusi | formatAbs | toFixed(1) }}%</span>
               </div>
               <div class="bott">环比</div>
             </div>

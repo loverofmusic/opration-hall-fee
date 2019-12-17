@@ -339,4 +339,8 @@ export default {
 .anchorTR {
   display: none;
 }
+
+#main-wrap {
+  margin: 0 auto;
+}
 </style>

@@ -7,16 +7,15 @@ main .r {
   overflow: hidden;
 }
 
-main .l,
-main .r {
-  margin-top: 0.7rem;
-}
-
 main .l > div,
 main .r > div {
   display: flex;
   flex: 0 0 50%;
-  padding: 0.6875rem 0.75rem;
+}
+
+main .l .l-t,
+main .r .r-t {
+  padding: 0 0 0.1042rem;
 }
 
 main .l .l-t,
@@ -35,17 +34,18 @@ main .chart-wrap {
 }
 
 main .m {
-  padding: 2.5rem 1rem 0.75rem;
+  padding: 0.1042rem 0.1042rem 0;
 }
 
 .baidu-map {
   /*background: url(../images/map@2x.png) center top no-repeat;*/
   background-size: 100% 100%;
   flex: 1;
-  margin: 1rem;
+  margin: 0;
 }
 
 .map-wrap {
+  padding: 0.1042rem 0.0781rem;
   background: url(../images/1@2x.png) center top no-repeat;
   background-size: 100% 100%;
   flex: 1;
@@ -53,9 +53,10 @@ main .m {
 }
 
 .hot-map-tit {
-  margin-top: -1rem;
+  font-size: 0.0938rem;
+  margin-top: -0.1823rem;
   color: #a2c3ff;
-  margin-left: -4.5rem;
+  margin-left: -0.375rem;
   left: 50%;
   position: absolute;
 }
@@ -67,8 +68,8 @@ main .chart-wrap .chart {
 
 main .chart-wrap h3 {
   color: #a2c3ff;
-  font-size: 0.94rem;
-  padding: 1.2rem 1.2rem 0.8rem;
+  font-size: 0.0938rem;
+  padding: 0.1042rem;
   margin-bottom: 0;
 }
 
@@ -91,7 +92,7 @@ main .chart-wrap h3 {
 .chart-inner .right-bottom {
   display: flex;
   flex: 0 0 50%;
-  padding: 0.6875rem 1.2rem;
+  padding: 0;
 }
 
 .chart-inner .echart-all {

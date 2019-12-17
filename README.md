@@ -1,6 +1,6 @@
 # opration-hall-fee
 ### demo url:
-[demo url](https://loverofmusic.github.io/opration-hall-fee/dist/index.html)
+[demo url](https://loverofmusic.github.io/opration-hall-fee/dist)
 
 ## Project setup
 ```
